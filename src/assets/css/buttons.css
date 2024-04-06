@@ -1,0 +1,25 @@
+button {
+  background: none;
+}
+
+.btn {
+  align-items: center;
+  border-radius: 90px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 15px;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.btnPrimary {
+  color: var(--third-font-color);
+  background: var(--secondary-bg-color);
+}
+
+.btnSecondary {
+  color: #000;
+  background: var(--third-font-color);
+}
